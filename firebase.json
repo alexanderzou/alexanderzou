@@ -1,6 +1,5 @@
 {
   "hosting": {
-	"site": "alexzou",
     "public": "public",
     "ignore": [
       "firebase.json",
