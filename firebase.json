@@ -12,6 +12,7 @@
     ]
   },
   "hosting": {
+	"site": "alexanderzou",
     "public": "public",
     "ignore": [
       "firebase.json",
