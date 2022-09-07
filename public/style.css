@@ -18,7 +18,7 @@ body {
 	margin-top: 25px;
 }
 #intro img {
-	clip-path: circle(40%);
+	clip-path: circle(50%);
 	height: 250px; width: 250px;
 }
 #intro h1 {font-size: 50px;}
