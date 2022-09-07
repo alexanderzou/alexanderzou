@@ -1,7 +1,6 @@
 html {scroll-behavior: smooth;}
 
 body {
-	background: white;
 	font-family: Roboto, Helvetica, Arial, sans-serif; 
 	margin: 0; 
 	padding: 0;
@@ -75,3 +74,13 @@ div.info {
 	
 }
 #contact h1 {font-size: 40px;}
+
+#credit {
+	background-color: #051630;
+	color: white;
+	padding: 25px 100px 75px 25px;
+}
+#credit p {
+	font-size: 12px;
+	margin: 0 0 0 0;
+}
