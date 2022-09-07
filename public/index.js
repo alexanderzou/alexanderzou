@@ -20,16 +20,46 @@ const app = initializeApp(firebaseConfig);
 */
 
 var omb = document.getElementById("omb");
+var ombInfo = document.getElementById("ombInfo");
+var ombClose = document.getElementById("ombClose");
 omb.onclick = function(event) {
-	console.log("omb");
+	ombInfo.style.display = "block";
+	document.getElementsByTagName('body')[0].style.overflow = 'hidden';
 };
+ombClose.onclick = function(event) {
+	ombInfo.style.display = "none";
+	document.getElementsByTagName('body')[0].style.overflow = 'visible';
+}
 
 var ge = document.getElementById("ge");
+var geInfo = document.getElementById("geInfo");
+var geClose = document.getElementById("geClose");
 ge.onclick = function(event) {
-	console.log("ge");
+	geInfo.style.display = "block";
+	document.getElementsByTagName('body')[0].style.overflow = 'hidden';
 };
+geClose.onclick = function(event) {
+	geInfo.style.display = "none";
+	document.getElementsByTagName('body')[0].style.overflow = 'visible';
+}
 
 var srt = document.getElementById("srt");
+var srtInfo = document.getElementById("srtInfo");
+var srtClose = document.getElementById("srtClose");
 srt.onclick = function(event) {
-	console.log("srt");
+	srtInfo.style.display = "block";
+	document.getElementsByTagName('body')[0].style.overflow = 'hidden';
 };
+srtClose.onclick = function(event) {
+	srtInfo.style.display = "none";
+	document.getElementsByTagName('body')[0].style.overflow = 'visible';
+}
+
+window.onclick = function(event) {
+  if (event.target == ombInfo || event.target == geInfo || event.target == srtInfo) {
+    ombInfo.style.display = "none";
+	geInfo.style.display = "none";
+	srtInfo.style.display = "none";
+    document.getElementsByTagName('body')[0].style.overflow = 'visible';
+  }
+}
