@@ -107,16 +107,16 @@ div.filler {width: 20px;}
 	z-index: 2;
 	opacity: 0.2;
 }
-.modal-content h1 {margin: auto; padding: 20px; width: 90%; transform: translate(0,-825%);}
-.modal-content h2 {margin: auto; padding: 20px; width: 90%; transform: translate(0,-950%);}
-.modal-content p {margin: auto; padding: 20px; width: 90%; transform: translate(0,-1075%);}
+.modal-content h1 {margin: auto; padding: 20px; width: 90%; transform: translate(0,-82vh);}
+.modal-content h2 {margin: auto; padding: 20px; width: 90%; transform: translate(0,-82vh);}
+.modal-content p {margin: auto; padding: 20px; width: 90%; transform: translate(0,-81vh);}
 .close {
 	color: black;
 	float: right;
 	font-weight: bold;
 	font-size: 30px;
 	padding: 10px;
-	transform: translate(0,-1190%);
+	transform: translate(0,-85vh);
 }
 .close:hover {
 	color: grey;

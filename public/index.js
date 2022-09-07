@@ -40,7 +40,7 @@ function openModal(mode) {
 		img.src = "img/onemorebullet.png";
 		name.innerHTML = "One More Bullet";
 		desc.innerHTML = "A game inspired by the flash game \"10 More Bullets\". Has keyboard controls, custom and imported sprites, and an upgrade/money system."
-		desc.style.transform = "translate(0,-640px)"
+		desc.style.transform = "translate(0,-82vh)"
 		tool.innerHTML = "Processing, Java"
 		link1.href = "https://github.com/fkhan00/MKS22X-Final_Project"
 		link1.innerHTML = "GitHub";
@@ -51,7 +51,7 @@ function openModal(mode) {
 		img.src = "img/graphic.gif";
 		name.innerHTML = "Python Graphics Engine";
 		desc.innerHTML = "A simple and easy to build graphics engine written in Python. Supports 3D rendering, animation (movement commands), and lighting.";
-		desc.style.transform = "translate(0,-640px)"
+		desc.style.transform = "translate(0,-82vh)"
 		tool.innerHTML = "Python, ImageMagick";
 		link1.href = "https://github.com/alexanderzou/MKS66-Animation";
 		link1.innerHTML = "GitHub";
@@ -62,7 +62,7 @@ function openModal(mode) {
 		img.src = "img/NSA.png";
 		name.innerHTML = "Study Room Tracker";
 		desc.innerHTML = "A study room tracker web app for the Folsom Library at RPI. Features interactive floor plans, occupy/unoccupy functions, and a login system.";
-		desc.style.transform = "translate(0,-640px)"
+		desc.style.transform = "translate(0,-82vh)"
 		tool.innerHTML = "HTML/CSS, Javascript, Firebase";
 		link1.href = "https://github.com/StudyRoomTracker/StudyRoomTracker.github.io";
 		link1.innerHTML = "GitHub";
