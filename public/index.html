@@ -27,25 +27,60 @@
   </head>
 
   <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Personal Website for Alexander Zou</h1>
-      <p>UNDER CONSTRUCTION</p>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
-	<script>
-	document.addEventListener('DOMContentLoaded', function() {
-		const loadEl = document.querySelector('#load');
-		try {
-			let app = firebase.app();
-			let features = ['auth', 'database', 'firestore','functions','messaging', 'storage', 'analytics', 'remoteConfig','performance',].filter(feature => typeof app[feature] === 'function');
-			loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-		} catch (e) {
-			console.error(e);
-			loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-		}
-	}); </script>
+  
+    <div id="intro">
+		<img src="img/profile.png"> <br>
+		<h1>Alexander Zou</h1> <br>
+		<p>Coder, Aspiring Software Engineer, and Tech Enthusiast. BSc Student at RPI.</p>
+	</div>
+	<div id="menu">
+		<div><a href="#about" style="text-decoration:none">About Me</a></div>
+		<div><a href="#projects" style="text-decoration:none">Projects</a></div>
+		<div><a href="#contact" style="text-decoration:none">Contact</a></div>
+	</div>
+	
+	<div class="info" id="about">
+		<div style="border-right-style: dotted; padding-right: 7px;">
+			<h1>About &#128195;</h1>
+			<p>Hi! I'm Alexander (Alex is fine also), a Computer Science major at RPI, working towards a Bachelor's and graduating in 2024.</p>
+			<p>I like playing video games and watching movies, and when I'm bored I like to come up with fun and useful coding ideas to start and (hopefully) finish.</p>
+			<p>Hoping for more experience in the professional field; coding and problem-solving is my passion.</p>
+			<p>Also interested in Economics, Game Design, and AI.</p>
+			<p>Open to internships and full-time junior positions, depending on time offered.</p>
+		</div>
+		<div style="padding-left: 10px;">
+			<h2> Relevant Information</h2>
+			<h3>Courses:</h3>
+			<ul>
+				<li>Data Structures</li>
+				<li>Discrete Mathematics</li>
+				<li>Algorithms</li>
+				<li>Operating Systems</li>
+			</ul>
+			<h3>Programming Languages:</h3>
+			<ul>
+				<li>Python</li>
+				<li>C/C++</li>
+				<li>HTML/CSS</li>
+				<li>Java</li>
+				<li>R/MatLab</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="info" id="projects">
+		<div>
+			<h1>Projects &#128295;</h1>
+		</div>
+	</div>
+	
+	<div class="info" id="contact">
+		<div>
+			<h1>Contact &#128222;</h1>
+		</div>
+	</div>
 	
 	<script type="module" src = "index.js"></script>
+	
   </body>
 </html>
